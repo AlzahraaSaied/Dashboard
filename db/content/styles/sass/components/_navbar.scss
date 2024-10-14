@@ -1,0 +1,39 @@
+header{
+   
+    .navbar {
+        background-color: $purple-color !important;
+      
+        .custom-display {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        /* ul {
+            position: relative;
+            .custom-border::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0px;  
+                width: 5px;  
+                height: 100vh;  
+                background-color: $white-color; 
+                z-index: 1;  
+            }
+            .custom-border::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -10px;  
+                width: 5px;  
+                height: 100vh;  
+                background-color: $white-color; 
+                z-index: 1; 
+              }
+
+        } */
+    
+    }
+}
+
