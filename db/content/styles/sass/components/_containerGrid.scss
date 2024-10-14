@@ -1,0 +1,87 @@
+.container-fluid{
+    overflow-x: hidden;
+
+    .row {
+        .sidebar {
+          background-color: $purple-color !important;
+          padding: 60px 0 0;
+          /*     width: 240px; */
+          height: 825px;
+          /*     z-index: 600; */
+      
+          .custom-ms-31 {
+            margin-left: 35px;
+          }
+          .hovers{
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            &:hover{
+           
+                background-color: $purple-color;
+                border-left: 5px solid  $coral-color;
+                font-weight:bold;
+    
+            }
+          }
+          
+        }
+        .custom-padding {
+          padding-top: 60px;
+          padding-left: 30px;
+        }
+        .text-coral {
+          color: $coral-color !important;
+        }
+        table {
+          vertical-align: middle;
+        }
+      
+        i {
+          cursor: pointer;
+        }
+
+        .form-inline{
+            display:flex;
+            flex-wrap:nowrap;
+            input , select{
+                margin-right: 30px;
+            }
+        } 
+        .form-inline {
+        input{
+            width: 336px;
+            padding: 10px 30px 10px 50px;
+            background-image: url('/content/images/search-image.webp');
+            background-position: 13px 10px; 
+            background-repeat: no-repeat;
+            outline: none;
+            border: none;
+            border-bottom: 3px solid $light-gray;
+            background-color: $input-bg;
+            
+        }
+        select{
+            width: 288px;
+            outline: none;
+            padding-left: 16px;
+            border: none;
+            background-color: $input-bg;
+           
+        }
+        
+        .btn-coral{
+            border-top-right-radius: 80px;
+            border-bottom-right-radius: 80px;
+            background-color: $coral-color;
+            color:$white-color;
+            
+        }
+        .btn-gray{
+            border-top-left-radius: 80px;
+            border-bottom-left-radius: 80px;
+            background-color: $input-bg;
+        }
+    }
+    }
+
+}
